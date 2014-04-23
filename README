@@ -1,0 +1,27 @@
+#==============================================================
+#
+#  Name: README
+#
+#  Rem:  This module contains functions that were formally
+#        in the EPICS ipac module. However, these functions 
+#        have since been removed. However, the functions 
+#        xipIoParse is still called by some drivers still
+#        in use at SLAC, including: ip320,ipi440,ip445 and ip470.
+#   
+#  Side: None
+#
+#  Auth: 23-Apr-2014, K. Luchini      (LUCHINI):
+#  Rev:  dd-mmm-yyyy, Reviewer's Name (USERNAME)
+#--------------------------------------------------------------
+#  Mod:
+#        dd-mmm-yyyy, Reviewer's Name (USERNAME)
+#          coment
+#
+#==============================================================
+#
+
+# End of file
+
+
+
+
