@@ -11,4 +11,4 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 
-xipIo-R1-0-1: Build for linuxRT-x86 target
+xipIo-R1-0-1: Build for linuxRT-x86_64 target
