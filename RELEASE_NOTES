@@ -10,5 +10,7 @@
 #  Auth: xx-Dec-2012, XXX         (xxx)
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
+R1.1.0: 15-Feb-2017, H. Slepicka (slepicka)
+    First version of xipIo working with the new git workflow.
 
 xipIo-R1-0-1: Build for linuxRT-x86_64 target
