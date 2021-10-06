@@ -10,6 +10,10 @@
 #  Auth: xx-Dec-2012, XXX         (xxx)
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
+R1.2.0: 05-Out-2021, M. Donadio (marcio)
+    - Buiding for Linux.
+    - Got rid of warning 'array subscript has type char'
+
 R1.1.0: 15-Feb-2017, H. Slepicka (slepicka)
     First version of xipIo working with the new git workflow.
 
