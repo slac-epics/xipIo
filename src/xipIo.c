@@ -55,7 +55,7 @@ int xipIoParse( char *str, xipIo_t *ptr, char flag )
   if( str == NULL || ptr == NULL )
     return 1;
 
-  while( !isalnum(*str) )
+  while( !isalnum((unsigned char)*str) )
   {
     if( *str++ == '\0')
       return 1;
