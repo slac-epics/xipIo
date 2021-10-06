@@ -16,6 +16,7 @@ LIBSRCS += xipIo.c
 # Link everything into a library:
 LIBRARY_IOC_vxWorks = xipIo
 LIBRARY_IOC_RTEMS   = xipIo
+LIBRARY_IOC_Linux   = xipIo
 
 #========================================
 include $(TOP)/configure/RULES

@@ -21,6 +21,7 @@ CHECK_RELEASE = YES
 #   that Base is built for.
 CROSS_COMPILER_TARGET_ARCHS = RTEMS-beatnik RTEMS-mvme3100 linuxRT-x86_64
 
+
 # To install files into a location other than $(TOP) define
 #   INSTALL_LOCATION here.
 #INSTALL_LOCATION=</path/name/to/install/top>
@@ -31,3 +32,18 @@ CROSS_COMPILER_TARGET_ARCHS = RTEMS-beatnik RTEMS-mvme3100 linuxRT-x86_64
 # You must rebuild in the iocBoot directory for this to
 #   take effect.
 #IOCS_APPL_TOP = </IOC/path/to/application/top>
+#
+# =======================================================
+# Let's install our IOC boot products:
+# envPaths and st.cmd
+# =======================================================
+INSTALL_LOCATION_STARTUP += $(INSTALL_LOCATION)/startup
+DIRECTORY_TARGETS += $(INSTALL_LOCATION_STARTUP)
+# =======================================================
+
+## =============================
+## Build Application Statically
+## =============================
+SHARED_LIBRARIES=NO
+STATIC_BUILD=YES
+# =======================================================================
